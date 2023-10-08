@@ -1,6 +1,5 @@
 import React from 'react'
 import './Page.css'
-import background from './assets/background.jpeg'
 import logo from './assets/whitelogo.png'
 
 const Home = () => {
@@ -14,7 +13,6 @@ const Home = () => {
                         <li>Home</li>
                         <li>About</li>
                         <li>Events</li>
-                        <li>Blogs</li>
                         <li>Reach out</li>
                         <li>Contact us</li>
                     </ul>

@@ -1,10 +1,16 @@
+.website{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
 .home {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
     display: flex;
     position: relative;
-    background-image: url('./assets/background.jpeg');
+    background-image: url('./assets/bg2.jpg');
     background-size: cover;
 }
 
@@ -21,7 +27,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.825);
+    background-color: rgba(0, 0, 0, 0.85);
+    
 }
 
 .navbar {
@@ -31,7 +38,7 @@
     display: flex;
     flex-direction: row;
     position: fixed;
-    
+    z-index: 2;    
 }
 
 .logo{
@@ -142,4 +149,80 @@ li:hover{
 .firstbutton:hover .firstbuttonname{
     color: rgb(213, 39, 118);
     box-shadow: 20px;
+}
+
+.othercontainer{
+    height: 250vh;
+    width: 100vw;
+    display: flex;
+    background-image: url('./assets/pattern.jpeg');
+    background-size: cover;
+    /* background-color: blue; */
+    z-index: 0;
+    /* justify-content: center; */
+
+}
+
+
+.overlay2{
+    position: absolute;
+    width: 100%;
+    height: 250vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0));
+
+}
+
+.aboutcontainer{
+    height: 60vh;
+    width: 85vw;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: 10%;
+    gap: 10vw;
+    /* background-color: blue; */
+}
+
+.abouttext{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: tomato; */
+    margin-left: 5%;
+}
+
+.heading{
+    font-family: main;
+    color: white;
+    font-size: 100px;
+    /* background-color: blue; */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.aboutdescription{
+    color: rgb(213, 39, 118);
+    font-size: 20px;
+    font-family: main;
+    /* margin-left: 30px; */
+}
+
+.weallogo{
+    height: 400px;
+    width: 400px;
+    aspect-ratio: 1;
+    margin-top: -30px;
+}
+
+.finalcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.suncontainer{
+    height: ;
 }
