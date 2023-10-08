@@ -2,12 +2,14 @@
 import './App.css';
 import Home from './Home';
 import Other from './Other';
+import Events from './Events'
 
 function App() {
   return (
     <div className='website'>
       <Home/>
       <Other/>
+      
     </div>
   );
 }
