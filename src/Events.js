@@ -15,6 +15,7 @@ import image8 from './assets/events/8.png'
 const Events = () => {
   return (
     <div className='carouselcontainer'>
+        <p className='events'>Events</p>
         <Carousel>
             <Carousel.Item interval={3000}>
                 <img src={image} alt='whatever' className='carouselimage'/>

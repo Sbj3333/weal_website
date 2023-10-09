@@ -8,10 +8,21 @@ const Other = () => {
     <div className='othercontainer'>
         <div className='overlay2'/>
         <div className='finalcontainer'>
-            {/* <Events/> */}
-            <About/>
-            <Reachout/>
-            <Contact/>
+            <section id="events">
+              <Events/>
+            </section>
+
+            <section id="about">
+              <About/>
+            </section>
+
+            <section id="reachout">
+              <Reachout/>
+            </section>
+
+            <section id="contact">
+              <Contact/>
+            </section>
 
         </div>
 
