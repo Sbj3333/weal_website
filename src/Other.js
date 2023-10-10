@@ -7,6 +7,7 @@ const Other = () => {
   return (
     <div className='othercontainer'>
         <div className='overlay2'/>
+        {/* <div className='overlay3'/> */}
         <div className='finalcontainer'>
             <section id="events">
               <Events/>
