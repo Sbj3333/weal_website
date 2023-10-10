@@ -56,13 +56,16 @@
 }
 
 .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 100px;
     width: 100vw;
     top: 0;
     bottom: 0;
-    position: fixed;
     display: flex;
     flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logo{
@@ -82,23 +85,28 @@ ul{
     /* background-color: blue; */
 }
 
-li{
-    margin-top: 20px;
-}
+
 
 li a{
     color: rgb(213, 39, 118);
     font-size: 25px;
+    display: flex;
     cursor: pointer;
     font-family: main;
-    margin-top: 70px;
+    margin-top: 20px;
     height: 35px;
     font-style: none;
     text-decoration: none;
+    /* margin-top: 70px; */
+
     /* margin-left: 10vw; */
     /* margin-left: 60px; */
-    /* background-color: blue; */
+    /* background-color: rgb(56, 56, 74); */
     
+}
+
+.homei{
+    margin-left: 10vw;
 }
 
 li a:hover{
@@ -141,6 +149,8 @@ li a:hover{
     font-size: 30px;
     font-family: main;
     margin-left: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
 }
 
 .firstbutton{
@@ -238,6 +248,7 @@ li a:hover{
     /* align-items: center; */
     /* background-color: tomato; */
     margin-left: 5%;
+    /* background-color: rgb(151, 26, 26); */
 }
 
 .heading{
