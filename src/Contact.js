@@ -8,8 +8,10 @@ const Contact = () => {
         <div className='contacttext'>
             <p className='contactheading'>Contact Us</p>
             <button className='contactbutton'>
+              <a href='https://www.instagram.com/weal_pesu/' className='instalink'>
                 <img src={insta} className='insta' alt='whatever'/>
                 <p className='name'>Weal_pesu</p>
+              </a>
             </button>
 
         </div>

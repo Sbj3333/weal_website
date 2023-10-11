@@ -15,7 +15,7 @@ const Reachout = () => {
       const docRef = await addDoc(collection(db, "messages"), {
         message: value,    
       });
-      console.log("Document written ");
+      alert("Your Message has been sent! Thank You!");
     } catch (e) {
       console.error("Error adding document: ", e);
     }
@@ -38,8 +38,8 @@ const Reachout = () => {
                   value={value}
                   onChange={(e)=> setValue(e.target.value)} ></textarea>
                 <div className='submit'>
-                  <button className='firstbutton' onClick={handleSubmit} >
-                    <p className='firstbuttonname'>Submit</p>
+                  <button className='submitbutton' onClick={handleSubmit} >
+                    <p className='submitname'>Submit</p>
                   </button>
                 </div>
             </div>

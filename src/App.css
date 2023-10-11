@@ -429,6 +429,12 @@ li a:hover{
     
 }
 
+.instalink{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
 .insta{
     height: 60px;
     aspect-ratio: 1.2;
@@ -465,3 +471,47 @@ li a:hover{
     margin-left: 27vw;
     margin-bottom: 6vh;
 }
+
+
+.submitbutton{
+    height: 80px;
+    width: 170px;
+    background-color: rgb(213, 39, 118);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 45px;
+}
+
+.submitbutton:hover{
+    background-color: white;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.submitname{
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    color: white;
+    font-family: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+.submitbutton:hover .submitname{
+    color: rgb(213, 39, 118);
+    box-shadow: 20px;
+}
+
+
