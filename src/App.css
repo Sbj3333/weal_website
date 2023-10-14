@@ -1,8 +1,11 @@
 .website{
     overflow-x: hidden;
+    overflow-y: hidden;
     display: flex;
     flex-direction: column;
 }
+
+
 
 @font-face {
     font-family: main;
@@ -26,7 +29,7 @@
 
 
 *::-webkit-scrollbar-thumb {
-    background: rgb(213, 39, 118);
+    background: rgb(255, 0, 115);
     border-radius: 5px;
 }
 
@@ -158,6 +161,7 @@ li a:hover{
     font-size: 30px;
     font-family: main;
     margin-left: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .firstbutton{
@@ -271,6 +275,8 @@ li a:hover{
     color: rgb(213, 39, 118);
     font-size: 25px;
     font-family: main;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
     /* margin-left: 30px; */
 }
 
@@ -300,6 +306,8 @@ li a:hover{
 
 .headline{
     font-family: main;
+    /* background-color: blue; */
+    width: 62vw;
     color: white;
     font-size: 100px;
     margin-top: 0;
@@ -520,4 +528,339 @@ li a:hover{
     box-shadow: 20px;
 }
 
+
+@media screen and (max-width: 390px) {
+    
+    .navbar{
+        height: 40px;
+    }
+    .logo {
+        margin-top: -20px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .text-container {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 60%;
+    }
+
+    .mainline {
+        font-size: 65px;
+    }
+
+    .description {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .firstbutton {
+        height: 50px;
+        width: 120px;
+        margin-left: 0;
+        margin-top: 25px;
+        border-bottom: 0px;
+    }
+
+    .firstbuttonname {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .events{
+        font-size: 65px;
+        margin-left: 14vw;
+    }
+
+    .carouselcontainer{
+        /* background-color: blue; */
+        height: 50vh;
+        width: 85vw;
+        margin-left: 25px;
+    }
+    
+    .carouselimage{
+        height: 200px;
+        width: 70vw;
+    }
+
+    .aboutcontainer{
+        flex-direction: column;
+        /* background-color: blue; */
+        height: 120vh;
+        margin-left: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutdescription{
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .weallogo{
+        height: 300px;
+        width: 300px;
+    }
+    
+    .heading{
+        font-size: 40px;
+    }
+
+    
+
+    .reachoutcontainer{
+        /* background-color: tomato; */
+        width: 95vw;
+        align-items: center;
+        justify-content: center;
+    }
+      
+    .headline{
+        font-size: 35px;
+        margin-left: 19vw;
+    }
+
+    .rdescription{
+        margin-top: 20px;
+    }
+    
+    
+    .ogcontainer{
+        flex-direction: column;
+        /* background-color: blue; */
+        width: 95vw;
+        justify-content: center;
+        align-items: center;
+        margin-left: 9px;
+        margin-top: 10vh;
+    }
+
+    .submitbutton{
+        height: 50px;
+        margin-left: -55px;
+    }
+    
+    .message{
+        width: 90vw;
+        margin-left: 10px;
+    }
+
+    .chat{
+        height: 300px;
+        width: 300px;
+        margin-top: 0;
+    }
+
+    .contactheading{
+        font-size: 40px;
+        margin-left: 40px;
+    }
+
+    
+
+    .contactcontainer{
+        flex-direction: column;
+        /* background-color: blue; */
+        align-items: center;
+        height: 65vh;
+
+    }
+
+    .contacttext{
+        /* background-color: tomato; */
+        width: 80vw;
+    }
+
+    .othercontainer{
+        height: 400vh;
+    }
+
+    .overlay2{
+        height: 400vh;
+    }
+
+    .contact{
+        height: 300px;
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .insta{
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    .name{
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 391px){
+    .description{
+        width: 70vw;
+
+    }
+
+    .events{
+        margin-left: 14vw;
+    }
+
+    .carouselimage{
+        height: 250px;
+        width: 55vw;
+    }
+
+    .aboutcontainer{
+        /* background-color: blue; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+        margin-left: 57px;
+    }
+
+    .heading{
+        font-size: 70px;
+        margin-left: 35px;
+        
+    }
+
+    .aboutdescription{
+        margin-left: -10px;
+    }
+
+    .headline{
+        margin-left: 21vw;
+        font-size: 70px;
+    }
+
+    .rdescription{
+        margin-top: 20px;
+    }
+
+    .ogcontainer{
+        flex-direction: column;
+        /* background-color: blue; */
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .reachoutcontainer{
+        /* background-color: tomato; */
+        align-items: center;
+    }
+
+    .message{
+        margin-left: 5vw;
+    }
+    .submitbutton{
+        margin-left: -4vw;
+    }
+
+    .chat{
+        margin-top: 0;
+    }
+
+    .contactheading{
+        margin-left: 13vw;
+        font-size: 70px;
+    }
+
+    .insta{
+        margin-left: 15vw;
+    }
+
+    .contactcontainer{
+        flex-direction: column;
+        /* background-color: blue; */
+        height: 87vh;
+        align-items: center;
+    }
+
+    .contacttext{
+        /* background-color: orange; */
+        width: 80vw;
+        align-items: center;
+    }
+
+    .contact{
+        height: 400px;
+        width: 400px;
+        margin-left: 0;
+        margin-top: 80px;
+    }
+
+    .othercontainer{
+        height: 400vh;
+
+    }
+    
+    .overlay2{
+        height: 400vh;
+    }
+
+
+
+    
+}
+
+
+@media screen and (max-width: 1440px) and (min-width: 769px){
+    .events{
+        margin-left: 22vw;
+    }
+
+    .carouselcontainer{
+        margin-left: 14vw;
+    }
+    .carouselimage{
+        width: 56vw;
+    }
+
+    .weallogo{
+        margin-top: 4vh;
+    }
+    
+    .heading{
+        font-size: 80px;
+    }
+
+    .headline{
+        font-size: 76px;
+    }
+
+    .submitbutton{
+        margin-left: 0;
+    }
+
+    .reachoutcontainer{
+        margin-top: 3vh;
+    }
+
+    .rdescription{
+        margin-top: 40px;
+    }
+
+    .contactheading{
+        font-size: 75px;
+    }
+
+    .contact{
+        height: 500px;
+        aspect-ratio: 1;
+    }
+
+    .othercontainer{
+        height: 320vh;
+    }
+    
+    .overlay2{
+        height: 320vh;
+    }
+}
 

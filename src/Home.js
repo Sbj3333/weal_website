@@ -17,7 +17,7 @@ const Home = () => {
                 </div>
                 <div className='text-container'>
                     <p className='mainline'>Welcome</p>
-                    <p className='description'>These styles can include changes in color, background, border, size, or any other visual effect you desire. Here's an example that changes the color and adds an underline to a link when hovered.</p>
+                    <p className='description'>The Official HealthTech club of PES University. Reach out to us and tell us your thoughts! It may be absolutely anything !</p>
                     <a href='#reachout' className='firstbutton'>
                         <p className='firstbuttonname'>Reach out</p>
                     </a>
